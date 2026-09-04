@@ -3,5 +3,6 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/qimen-dunjia/',
   plugins: [vue()],
 })
